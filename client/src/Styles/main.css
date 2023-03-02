@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import "contact.css";
+@import "login.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  position: relative;
+  min-height: 100vh;
+}
+
+footer {
+  bottom: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #afadad;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
